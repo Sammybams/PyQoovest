@@ -68,4 +68,14 @@ def factor_crop_rec(factor, factor_value, factor_normal, crop_name):
     )
     return response.choices[0].message.content
 
-print(factor_crop_rec("Phosphorus", 20, 40, "Rice"))
+# print(factor_crop_rec("Potassium", 20, 40, "Rice"))
+
+# prefix = "app/sample_recommendations"
+# with open(f"{prefix}/Nitrogen_rice_sample.txt", 'w') as file1:
+#     file1.write(factor_crop_rec("Nitrogen", 20, 40, "Rice"))
+
+# with open(f"{prefix}/Phosphorus_rice_sample.txt", 'w') as file2:
+#     file2.write(factor_crop_rec("Phosphorus", 20, 40, "Rice"))
+
+# with open(f"{prefix}/Potassium_rice_sample.txt", 'w') as file3:
+#     file3.write(factor_crop_rec("Potassium", 20, 40, "Rice"))
