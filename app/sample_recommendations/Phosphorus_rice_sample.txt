@@ -2,7 +2,7 @@ Phosphorus Adjustment Recommendation
 
 Current Soil Status:
 - Phosphorus (P): 20 ppm
-- Phosphorus Deficit: -20 ppm
+- Phosphorus Deficit: 20 ppm
 
 Optimal Level for Rice:
 - Phosphorus (P): 40 ppm
@@ -13,30 +13,25 @@ To raise the phosphorus level from 20 ppm to the optimal level of 40 ppm for Ric
 Practical Steps:
 1. Select a Phosphorus Source:
    - Rock Phosphate: A natural source of phosphorus that is slow-release and long-lasting.
-   - Superphosphate: A processed form of rock phosphate that is more soluble and provides a quicker phosphorus boost.
-   - Bone Meal: A byproduct of animal processing that is high in phosphorus and also provides calcium.
-   - If available, Triple Superphosphate (0-46-0) or Monoammonium Phosphate (11-52-0) can be used for a quicker phosphorus boost.
+   - Bone Meal: A byproduct of animal processing that is high in phosphorus.
+   - Superphosphate: A commercial fertilizer that is water-soluble and quickly available to plants.
 
 2. Calculate the Application Rate:
    - Determine the amount of phosphorus source based on the phosphorus deficit and the area to be treated.
-   - Example: If the deficit is 20 ppm for 1 acre, you may need about 200 lbs of rock phosphate.
+   - Example: If the deficit is 20 ppm for 1 acre, you may need about 400 kg of rock phosphate.
 
 3. Application Method:
    - Broadcast: Spread the phosphorus source evenly and work it into the soil.
    - Side-Dressing: Place the phosphorus source in bands alongside plant rows.
-   - Seed-Placed: Apply the phosphorus source directly to the seed furrow at planting.
+   - Seed-Placed: Apply the phosphorus source directly to the seed furrow.
 
 4. Timing:
    - Apply before planting or during early stages of plant growth when the crop needs phosphorus the most.
 
-How it Works:
-- Rock Phosphate/Superphosphate: Provides phosphorus and enhances soil fertility by improving structure and moisture retention.
-- Bone Meal: Provides phosphorus and calcium, which are both essential for plant growth.
-
 Possible Side Effects:
 - Over-fertilization: Using too much phosphorus can lead to nutrient imbalances, harming crops and possibly contaminating nearby water sources with runoff.
-   - Cause: Excessive application, especially of processed forms of phosphorus, which may have higher phosphorus content than needed.
-- Soil Acidification: Some phosphorus sources can lower soil pH, which can affect nutrient availability and plant growth.
-   - Cause: Using acidic phosphorus sources like rock phosphate or superphosphate.
+   - Cause: Excessive application, especially of water-soluble fertilizers, which may have higher phosphorus content than needed.
+- Soil Acidification: Some phosphorus sources can lower soil pH, making it more acidic.
+   - Cause: Using acid-forming fertilizers like superphosphate or applying too much phosphorus.
 
-By following these steps, you can effectively adjust the phosphorus level in your soil, promoting healthy growth and optimal yields for your Rice crop. Regular monitoring and proper management practices will help maintain soil fertility and plant health.
+By following these steps, you can effectively adjust the phosphorus level in your soil, promoting healthy growth and optimal yields for your Rice crop. Regular monitoring and proper management practices will help maintain soil fertility and plant health. In Kenya, some traditional sources of phosphorus include bone meal, fish meal, and bat guano.

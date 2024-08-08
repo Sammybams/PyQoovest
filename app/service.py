@@ -2,7 +2,8 @@ import math
 import numpy as np
 import pandas as pd
 import requests
-import app.config as config
+# import app.config as config
+import config
 #import config as config #test
 import pickle
 import io
@@ -11,16 +12,24 @@ from torchvision import transforms
 from PIL import Image
 #from app.utils.disease import disease_dic
 #from app.utils.fertilizer import fertilizer_dic
-from app.utils.model import ResNet9
-import app.exceptions as exceptions
+# from app.utils.model import ResNet9
+from utils.model import ResNet9
+# import app.exceptions as exceptions
+import exceptions
 #from utils.model import ResNet9 #test
 #import exceptions as exceptions #test
-import app.recommedation_engine as rec
-#import recommedation_engine as rec
+# import app.recommendation_engine_with_azureOAI as rec
+import recommendation_engine_with_azureOAI as rec
 
-fertilizer = pd.read_csv("app/Data/fertilizer.csv")
+# import recommedation_engine as rec
+
+# fertilizer = pd.read_csv("app/Data/fertilizer.csv")
+fertilizer = pd.read_csv("Data/fertilizer.csv")
+
 fertilizer_dict = dict(fertilizer)
-planting = pd.read_csv("app/Data/crop-planting-info.csv")
+# planting = pd.read_csv("app/Data/crop-planting-info.csv")
+planting = pd.read_csv("Data/crop-planting-info.csv")
+
 planting_dict = dict(planting)
 
 
@@ -30,14 +39,18 @@ planting_dict = dict(planting)
 
 disease_classes = ['Apple___Apple_scab', 'Apple___Black_rot', 'Apple___Cedar_apple_rust', 'Apple___healthy', 'Blueberry___healthy', 'Cherry_(including_sour)___Powdery_mildew', 'Cherry_(including_sour)___healthy', 'Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot', 'Corn_(maize)___Common_rust_', 'Corn_(maize)___Northern_Leaf_Blight', 'Corn_(maize)___healthy', 'Grape___Black_rot', 'Grape___Esca_(Black_Measles)', 'Grape___Leaf_blight_(Isariopsis_Leaf_Spot)', 'Grape___healthy', 'Orange___Haunglongbing_(Citrus_greening)', 'Peach___Bacterial_spot', 'Peach___healthy', 'Pepper,_bell___Bacterial_spot', 'Pepper,_bell___healthy', 'Potato___Early_blight', 'Potato___Late_blight', 'Potato___healthy', 'Raspberry___healthy', 'Soybean___healthy', 'Squash___Powdery_mildew', 'Strawberry___Leaf_scorch', 'Strawberry___healthy', 'Tomato___Bacterial_spot', 'Tomato___Early_blight', 'Tomato___Late_blight', 'Tomato___Leaf_Mold', 'Tomato___Septoria_leaf_spot', 'Tomato___Spider_mites Two-spotted_spider_mite', 'Tomato___Target_Spot', 'Tomato___Tomato_Yellow_Leaf_Curl_Virus', 'Tomato___Tomato_mosaic_virus', 'Tomato___healthy']
 
-disease_model_path = 'app/models/plant_disease_model.pth'
+# disease_model_path = 'app/models/plant_disease_model.pth'
+disease_model_path = 'models/plant_disease_model.pth'
+
 disease_model = ResNet9(3, len(disease_classes))
 disease_model.load_state_dict(torch.load(disease_model_path, map_location=torch.device('cpu')))
 disease_model.eval()
 
 # Loading crop recommendation model
 
-crop_recommendation_model_path = 'app/models/RandomForest.pkl'
+# crop_recommendation_model_path = 'app/models/RandomForest.pkl'
+crop_recommendation_model_path = 'models/RandomForest.pkl'
+
 crop_recommendation_model = pickle.load(open(crop_recommendation_model_path, 'rb'))
 
 # =========================================================================================
@@ -263,7 +276,7 @@ def get_crops_diseases():
         }
 
 def get_crop_recommendation_service(factor,factor_value,factor_normal,crop_name):
-    recommendation_result,exception_status = rec.factor_crop_rec(factor, factor_value,factor_normal,crop_name)
+    recommendation_result,exception_status = rec.factor_crop_rec(factor, factor_value, factor_normal, crop_name)
     #print(recommendation_result,exception_status)
     if exception_status == "NO":
         return {

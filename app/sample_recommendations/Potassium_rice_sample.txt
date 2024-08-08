@@ -12,30 +12,24 @@ To raise the potassium level from 20 ppm to the optimal level of 40 ppm for Rice
 
 Practical Steps:
 1. Select a Potassium Source:
-   - Muriate of Potash (0-0-60): A common source of potassium that is readily available and affordable.
-   - Sul-Po-Mag (0-0-22): A slow-release source of potassium that also contains magnesium and sulfur.
-   - Greensand: A natural source of potassium that also contains other trace minerals.
+   - Wood Ash: A traditional source of potassium in Kenya, wood ash is rich in potassium and other nutrients. It is also readily available and affordable.
+   - Muriate of Potash (0-0-60): A commercial fertilizer that contains high levels of potassium.
 
 2. Calculate the Application Rate:
-   - Determine the amount of fertilizer based on the potassium deficit and the area to be treated.
-   - Example: If the deficit is 20 ppm for 1 acre, you may need about 400 lbs of Muriate of Potash.
+   - Determine the amount of wood ash or muriate of potash based on the potassium deficit and the area to be treated.
+   - Example: If the deficit is 20 ppm for 1 acre, you may need about 200 kg of wood ash or 100 kg of muriate of potash.
 
 3. Application Method:
-   - Broadcast: Spread fertilizer evenly and work it into the soil.
-   - Side-Dressing: Place fertilizer in bands alongside plant rows.
-   - Top-Dressing: Apply fertilizer on the soil surface and water it in.
+   - Broadcast: Spread wood ash or muriate of potash evenly and work it into the soil.
+   - Side-Dressing: Place wood ash or muriate of potash in bands alongside plant rows.
 
 4. Timing:
    - Apply before planting or during early stages of plant growth when the crop needs potassium the most.
 
-How it Works:
-- Muriate of Potash/Sul-Po-Mag: Provides potassium to the soil, promoting root growth, disease resistance, and overall plant health.
-- Greensand: Slowly releases potassium and other trace minerals over time, improving soil structure and fertility.
-
 Possible Side Effects:
-- Over-fertilization: Using too much fertilizer can lead to nutrient imbalances, harming crops and possibly contaminating nearby water sources with runoff.
-   - Cause: Excessive application, especially of fast-release fertilizers, which may have higher potassium content than needed.
-- Soil Salinization: Using fertilizers with high salt content can increase soil salinity, making it difficult for plants to absorb water and nutrients.
-   - Cause: Using fertilizers with high chloride content, such as Muriate of Potash.
+- Over-fertilization: Using too much wood ash or muriate of potash can lead to nutrient imbalances, harming crops and possibly contaminating nearby water sources with runoff.
+   - Cause: Excessive application, especially of muriate of potash, which may have higher potassium content than needed.
+- Soil pH: Wood ash can raise soil pH, which may affect nutrient availability and plant growth.
+   - Cause: Using large amounts of wood ash or applying it frequently.
 
-By following these steps, you can effectively adjust the potassium level in your soil, promoting healthy growth and optimal yields for your Rice crop. Regular monitoring and proper management practices will help maintain soil fertility and plant health.
+By following these steps, you can effectively adjust the potassium level in your soil, promoting healthy growth and optimal yields for your Rice. Regular monitoring and proper management practices will help maintain soil fertility and plant health.
