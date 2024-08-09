@@ -124,4 +124,4 @@ def factor_disease_rec(crop_name,disease_name):
     
 # print(factor_fert_rec(82,60,50,"Normal","High","Normal",80,42,50,"Rice")[0])
 
-print(factor_disease_rec("Apple","Black rot")[0])
+# print(factor_disease_rec("Apple","Black rot")[0])
