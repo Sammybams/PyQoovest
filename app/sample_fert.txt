@@ -1,0 +1,19 @@
+Soil Nutrient Recommendation for Planting Rice
+
+Current Status:
+- Nitrogen (N): [Current Level] ppm (High)
+- Phosphorus (P): [Current Level] ppm (Normal)
+- Potassium (K): [Current Level] ppm (Low)
+
+Steps to Balance Nutrients:
+
+1. Reduce Nitrogen:
+   - Use organic mulch such as rice straw or well-rotted compost to gradually lower nitrogen levels. Excess nitrogen can lead to excessive foliage and poor rice grain development.
+   - Avoid using high-nitrogen fertilizers like urea. Instead, focus on fertilizers with balanced or low nitrogen content to prevent unwanted vegetative growth.
+
+2. Increase Potassium:
+   - Apply potassium-rich materials like wood ash or potassium sulfate. Potassium is crucial for rice, enhancing grain development and disease resistance.
+   - Incorporate compost that is rich in potassium to improve soil fertility and support healthy rice plants.
+
+3. Maintain Phosphorus:
+   - Do not add extra phosphorus fertilizers as current levels are already suitable. Phosphorus is essential for root development and should be maintained at optimal levels to support rice growth, especially in flooded conditions.
