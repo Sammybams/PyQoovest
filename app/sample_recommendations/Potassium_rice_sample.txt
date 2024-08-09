@@ -1,0 +1,35 @@
+Potassium Adjustment Recommendation
+
+Current Soil Status:
+- Potassium (K): 20 ppm
+- Potassium Deficit: -20 ppm
+
+Optimal Level for Rice:
+- Potassium (K): 40 ppm
+
+Recommendation:
+To raise the potassium level from 20 ppm to the optimal level of 40 ppm for Rice, follow these steps:
+
+Practical Steps:
+1. Select a Potassium Source:
+   - Wood Ash: A traditional source of potassium in Kenya, wood ash is rich in potassium and other nutrients. It is also readily available and affordable.
+   - Muriate of Potash (0-0-60): A commercial fertilizer that contains high levels of potassium.
+
+2. Calculate the Application Rate:
+   - Determine the amount of wood ash or muriate of potash based on the potassium deficit and the area to be treated.
+   - Example: If the deficit is 20 ppm for 1 acre, you may need about 200 kg of wood ash or 100 kg of muriate of potash.
+
+3. Application Method:
+   - Broadcast: Spread wood ash or muriate of potash evenly and work it into the soil.
+   - Side-Dressing: Place wood ash or muriate of potash in bands alongside plant rows.
+
+4. Timing:
+   - Apply before planting or during early stages of plant growth when the crop needs potassium the most.
+
+Possible Side Effects:
+- Over-fertilization: Using too much wood ash or muriate of potash can lead to nutrient imbalances, harming crops and possibly contaminating nearby water sources with runoff.
+   - Cause: Excessive application, especially of muriate of potash, which may have higher potassium content than needed.
+- Soil pH: Wood ash can raise soil pH, which may affect nutrient availability and plant growth.
+   - Cause: Using large amounts of wood ash or applying it frequently.
+
+By following these steps, you can effectively adjust the potassium level in your soil, promoting healthy growth and optimal yields for your Rice. Regular monitoring and proper management practices will help maintain soil fertility and plant health.

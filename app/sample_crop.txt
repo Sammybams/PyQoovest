@@ -1,0 +1,13 @@
+Nitrogen Adjustment Recommendation
+
+Current Soil Status:
+- Nitrogen (N): [Current Level] ppm
+- Nitrogen Change : [Nitrogen Deficit] ppm
+
+Optimal Level for [Crop Name]:
+- Nitrogen (N): [Optimal Level] ppm
+
+Recommendation:
+To raise/drop the nitrogen level from [Current Level] ppm to the optimal level of [Optimal Level] ppm for [Crop Name], follow these steps:
+
+Practical Steps on how to optimize Nitrogen for [Crop Name]:

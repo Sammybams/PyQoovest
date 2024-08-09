@@ -1,5 +1,5 @@
-from app.schema import BaseResponse
-#from schema import BaseResponse #test
+# from app.schema import BaseResponse
+from schema import BaseResponse #test
 
 class ResponseConstant:
     SUCCESS = BaseResponse(responseCode="00", responseMessage="Completed successfully")

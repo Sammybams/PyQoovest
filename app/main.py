@@ -6,7 +6,8 @@ from fastapi.templating import Jinja2Templates
 import numpy as np
 import pandas as pd
 import requests
-import app.config as config
+# import app.config as config
+import config
 import pickle
 import io
 import torch
@@ -14,11 +15,15 @@ from torchvision import transforms
 from PIL import Image
 #from app.utils.disease import disease_dic
 #from app.utils.fertilizer import fertilizer_dic
-from app.utils.model import ResNet9
+# from app.utils.model import ResNet9
+from utils.model import ResNet9
 from fastapi.middleware.cors import CORSMiddleware
-import app.service as service
-import app.schema as schema
-import app.recommedation_engine as rec
+# import app.service as service
+# import app.schema as schema
+# import app.recommedation_engine as rec
+import service
+import schema
+import recommendation_engine_with_azureOAI as rec
 #from mangum import Magnum
 
 
