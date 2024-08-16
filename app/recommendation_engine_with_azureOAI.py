@@ -83,15 +83,15 @@ def factor_fert_rec(N,P,K,N_level,P_level,K_level,N_normal,P_normal,K_normal,cro
                 {"role": "system", "content": "You are a professional Rural Agronomists that specializes in soil management, crop production, and the application of scientific methods to improve farming practices."},
                 {"role": "user", "content": f"""A farmer takes samples of his soil and gets Nitrogen: {N}, Phosphorus {P} and Potassium {K}. He wishes to plant {crop_name}.
                                             
-                                                A sample recommendation format is provided below when Nitrogen level is high, Phosphorus normal and potassium low.
-                                                Sample recommendation:
-                                                {read_sample('app/sample_fert.txt')}
-                                                
                                                 For this particular farmer, the Nitrogen Level of the soil is {N_level},
                                                 the current Phosphorus Level of the soil is {P_level} when compared to a normal value of {P_normal},
                                                 Potassium Level of the soil is {K_level}.
                                                 
-                                                For this soil profile, using the sample format only, provide a recommendation for the soil to effect {N_level} level Nitrogen, {P_level} level Phosphorus and {K_level} level Potassium but nothing more."""}
+                                                For this soil profile, using the sample format only, provide a recommendation for the soil to effect {N_level} level Nitrogen, {P_level} level Phosphorus and {K_level} level Potassium but nothing more.
+                                                
+                                                A sample recommendation format is provided below when Nitrogen level is high, Phosphorus normal and potassium low.
+                                                Sample recommendation:
+                                                {read_sample('app/sample_fert.txt')}"""}
                 ]
 
             )
@@ -122,6 +122,6 @@ def factor_disease_rec(crop_name,disease_name):
         exception_status="YES"
         return e, exception_status
     
-# print(factor_fert_rec(82,60,50,"Normal","High","Normal",80,42,50,"Rice")[0])
+print(factor_fert_rec(82,60,50,"Normal","High","Normal",80,42,50,"Rice")[0])
 
 # print(factor_disease_rec("Apple","Black rot")[0])
